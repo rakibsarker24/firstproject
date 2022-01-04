@@ -1,0 +1,264 @@
+
+@media (min-width:320px) and (max-width:575px) {
+  
+    /* ====Menuber start=========== */
+    .menuber button i{
+        color:white;
+    } 
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .125rem;
+        color:white;
+        margin-right:5px;
+    }
+.navbar-brand img{
+    width: 70%;
+    padding-left: 10px;
+}
+
+.menuber ul li a {
+    font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+    /* ====Menuber end=========== */
+
+    /* ====Banner start=========== */
+
+    .bg {
+        padding-bottom: 50px;
+        padding-top: 110px;
+    }
+.details {
+	width: auto;
+	background: #ea3a60;
+	padding: 20px;
+	top: 20%;
+}
+.details h3 {
+	font-size: 14px;
+}
+.details h2 {
+	font-size: 26px;
+}
+.details p {
+	font-size: 14px;
+}
+.details a {
+	margin-right: 10px;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+/* ====Banner end=========== */
+/* ====about start=========== */
+#about {
+	margin-top: 45px;
+}
+#about .about-main .content-left h4 {
+	font-size: 45px;
+}
+#about .about-main .content-left h3 {
+	font-size: 16px;
+}
+#about .about-main .content h2 {
+	font-size: 32px;
+	padding-top: 20px;
+}
+#about .about-main .content p {
+	font-size: 14px;
+}
+#about .about-main .botton a {
+	margin: 7px 20px;
+	padding: 6px 14px;
+	font-size: 14px;
+}
+
+/* ==== about end=========== */
+/* ====choice start=========== */
+#choice {
+	margin-top: 30px;
+}
+#choice .right-bg {
+	background: transparent;
+
+
+}
+#choice .choice-main .content h2 {
+	font-size: 32px;
+}
+#choice .choice-main .content p {
+	font-size: 14px;
+	width: 298px;
+}
+#choice .choice-main .icon ul li i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+}
+/* ====choice end=========== */
+/* ====Offering start=========== */
+#offering .top-part h3 {
+	font-size: 36px;
+}
+#offering .top-part p {
+	font-size: 14px;
+    margin-top:20px;
+	width: auto;
+}
+/* ====Offering end=========== */
+/* ====team start=========== */
+#team .common-header h2 {
+	font-size: 32px;
+}
+#team .common-header p {
+	font-size: 14px;
+	width: auto;
+}
+
+#team .image {
+	margin-top: 20px;
+}
+#team .image .data h3 {
+	font-size: 18px;
+}
+#team .image .data h4 {
+	font-size: 14px;
+}
+
+/* ====team end=========== */
+/* ====counter start=========== */
+#counter {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#counter .container-item {
+	margin-bottom: 20px;
+}
+#counter .container-item h2 {
+	font-size: 32px;
+}
+#counter .container-item h3 {
+	font-size: 14px;
+}
+/* ====counter end=========== */
+/* ====ques start=========== */
+#ques .left h3 {
+	font-size: 32px;
+}
+#ques .left p {
+	font-size: 14px;
+	width: 304px;
+}
+
+/* ====ques end=========== */
+/* ====news start=========== */
+#news .news-item .bder .left a::before {
+	bottom: -43px;
+	width: 219%;
+}
+#news .news-item .bder .left a::after {
+	top: -21px;
+	width: 219%;
+}
+/* ====news end=========== */
+/* ====plan start=========== */
+#plan .common-header h2 {
+	font-size: 32px;
+}
+#plan .common-header p {
+	font-size: 14px;
+    width: auto;
+}
+
+#plan .left .heading h3 {
+	font-size: 32px;
+}
+#plan .left .heading h3 span {
+	font-size: 14px;
+}
+#plan .left .data .button a {
+	padding: 7px 10px;
+	font-size: 14px;
+}
+
+
+/* ====plan end=========== */
+/* ====client Start=========== */
+#client .common-header h2 {
+	font-size: 32px;
+}
+#client .common-header p {
+	width: auto;
+}
+#client .client-item {
+	padding: 12px 17px;
+}
+#client .client-item .right {
+	text-align: center;
+}
+#client .client-item .right .coma {
+	position: absolute;
+	right: 3%;
+	top: 43%;
+}
+/* ====client end=========== */
+/* ====mission end=========== */
+#mission .right h2 {
+	font-size: 32px;
+	padding-top: 20px;
+	width: 295px;
+   
+}
+#mission .right p {
+	font-size: 14px;
+	width: 243px;
+}
+#mission .right .button .play {
+	width: 60px;
+	height: 60px;
+    left: 49%;
+}
+#mission .right .button {
+	width: 75px;
+	height: 76px;
+}
+#mission .right .text h4 {
+	font-size: 18px;
+	padding-left: 120px;
+	top: 90%;
+	left: 5%;
+}
+/* ====client end=========== */
+/* ====footer end=========== */
+#footer .logo-part p {
+	font-size: 14px;
+	width: auto;
+}
+#footer .logo-part h3 {
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+#footer .left ul li {
+	padding-left: 25px;
+}
+/* ====footer end=========== */
+/* ==== end=========== */
+
+/* ==== end=========== */
+/* ==== end=========== */
+
+/* ==== end=========== */
+/* ==== end=========== */
+
+/* ====client end=========== */
+
+
+
+
+
+
+
+
+
+}

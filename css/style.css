@@ -1,0 +1,1086 @@
+*{
+    margin: 0;
+    top:0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+padding:0;
+margin: 0;
+}
+ul li{
+    list-style: none;
+}
+/* ====================================================
+              Basic css End
+========================================================*/
+/* ====================================================
+              navber css start
+========================================================*/
+.menuber{
+    background: #ea3a60;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.menuber ul li a{
+    color: white;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    transition: .4s ;
+}
+
+.menuber ul li a:hover{
+    color:#ffffff !important;
+}
+/* ====================================================
+              navber css End
+========================================================*/
+/* ====================================================
+              Banner css Start
+========================================================*/
+.bg{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.details{
+    width: 615px;
+    background: #ea3a60;
+    padding: 100px;
+    top: 20%;
+}
+.details h3{
+    color: white;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.details h2{
+    color: white;
+    font-size:42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+}
+.details p{
+    color: white;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.details a{
+    margin-right: 30px;
+	padding: 15px 35px;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+    text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	border-radius: 3px;
+	border: 1px solid rgb(255, 255, 255);
+	transition: .4s;
+}
+#banner .details a:hover{
+    color:#ea3a60;
+    background: #ffffff;
+}
+/* ====================================================
+              Banner css End
+========================================================*/
+/* ====================================================
+              about css start
+========================================================*/
+#about{
+    margin-top: 80px ;
+}
+#about .about-main img{
+    width: 100%;
+}
+#about .about-main .content{
+    padding-left: 20px;
+}
+#about .about-main .content-left{
+    text-align: center;
+    background: #ea3a60;
+}
+#about .about-main .content-left h4{
+    font-size:75px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    color:white;
+}
+#about .about-main .content-left h3 {
+	font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: white;
+	padding-bottom: 20px;
+}
+#about .about-main .content h2{
+    font-size:42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+#about .about-main .content h2::after{
+    position: absolute;
+    content: '';
+    top:107%;
+    left:0;
+    width: 12%;
+    height: 2px;
+    background: #ea3a60;
+    margin-bottom: 20px;
+}
+#about .about-main .content p{
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+}
+#about .about-main .botton a {
+	margin: 30px 20px;
+	padding: 15px 35px;
+	background: rgb(255, 255, 255);
+	color: #ea3a60;
+	font-size: 16px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	border-radius: 3px;
+	border: 1px solid #ea3a60;
+	transition: .4s;
+}
+#about .about-main .botton a:hover{
+    background: #ea3a60;
+    color:white;
+}
+
+/* ====================================================
+             about  css End
+========================================================*/
+/* ====================================================
+           choice  about  css start
+========================================================*/
+#choice{
+    margin-top: 120px ;
+    position: relative;
+}
+#choice .right-bg {
+   background: url(../Images/bg--jxUqqH.png) no-repeat;
+	 position: absolute;
+	top: 0%;
+	left: 50%;
+	width: 50%;
+	padding: 150px;
+	height: 92%;
+    background-size: cover; 
+}
+#choice .choice-main img{
+    width: 100%;
+    height: 90%;
+}
+
+#choice .choice-main .content-left{
+    text-align: center;
+    background: #ea3a60;
+}
+#choice .choice-main .content-left h4{
+    font-size:75px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    color:white;
+}
+#choice .choice-main .content-left h3 {
+	font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: white;
+	padding-bottom: 20px;
+}
+
+#choice .choice-main .content h2 {
+	font-size: 42px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	position: relative;
+	width: 393px;
+}
+#choice .choice-main .content h2::after{
+    position: absolute;
+    content: '';
+    top:107%;
+    left:0;
+    width: 12%;
+    height: 2px;
+    background: #ea3a60;
+    margin-bottom: 20px;
+}
+#choice .choice-main .content p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	padding-top: 20px;
+	width: 524px;
+}
+
+#choice .choice-main .icon ul li {
+	padding-top: 21px;
+	padding-bottom: 33px;
+	text-align: center;
+}
+#choice .choice-main .icon ul li i{
+    padding-bottom: 20px;
+    background: #ea3a60;
+    width: 60px;
+    height: 60px;
+    color:white;
+    line-height: 60px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+#choice .choice-main .data{
+    margin-top: 20px;
+}
+#choice .choice-main .data ul li{
+    padding-bottom: 20px;
+}
+#choice .choice-main .data ul li h3{
+    font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+} 
+#choice .choice-main .data ul li p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	width: 390px;
+}
+/* ====================================================
+           choice   about css End
+========================================================*/
+/* ====================================================
+              Offering css start
+========================================================*/
+#offering{
+    margin-top: 80px;
+    padding:100px 0px;
+    background: rgb(238, 238, 238);
+}
+#offering .top-part{
+    margin-bottom: 50px;
+}
+#offering .top-part h3{
+    font-size: 42px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	position: relative;
+	width: 393px;
+}
+#offering .top-part p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	width: 557px;
+	border-left: 3px solid #ea3a60;
+	padding-left: 20px;
+}
+
+#offering .cards{
+    margin-bottom: 25px;
+    text-align: center;
+    background: white;
+    padding:30px;
+    transition: .4s;
+}
+#offering .cards:hover{
+    background:#ea3a60;
+}
+#offering .cards:hover i{
+    color:#ffffff;
+}
+#offering .cards:hover h3{
+    color:#ffffff;
+}
+#offering .cards:hover p{
+    color:#ffffff;
+}
+#offering .cards i{
+    font-size:50px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color:#ea3a60;
+   transition: .4s;
+}
+#offering .cards h3{
+     font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+    padding-bottom: 10px;
+    transition: .4s;
+}
+#offering .cards p{
+     font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+    transition: .4s;
+}
+
+/* ====================================================
+              Offering css End
+========================================================*/
+/* ====================================================
+              team css start
+========================================================*/
+#team{
+    margin-top: 80px;
+    position: relative;
+}
+#team .common-header{
+    text-align: center;
+}
+#team .common-header h2{
+   font-size: 42px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: black;
+   margin-bottom: 20px;
+   position: relative;
+}
+#team .common-header h2::after {
+    position: absolute;
+    content: '';
+    top: 110%;
+    left: 47%;
+    width: 8%;
+    height: 2px;
+    background: #ea3a60;
+}
+#team .common-header p{
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: rgb(95, 95, 95);
+   margin-bottom: 20px;
+   width: 600px;
+   margin: auto;
+   padding-bottom: 50px;
+}
+
+#team .image{
+    position: relative;
+    overflow: hidden;
+}
+#team .image img{
+    width: 100%;
+    position: relative;
+    transition: .4s;
+}
+#team .image .overlay{
+    position: absolute;
+    top:0%;
+    left:0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(234, 58, 96, 0.445);
+    opacity: 0;
+    transition: .4s;
+}
+#team .image .overlay i{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 130px;
+    z-index: 999;
+}
+
+#team .image:hover .overlay{
+    opacity: 1;
+}
+#team .image:hover img{
+    transform: scale(1.2);
+}
+
+#team .image .data{
+    width: 100%;
+    opacity: 1;
+    background: #ea3a60;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 81%;
+    left:0;
+    transition: .4s;
+}
+#team .image .data h3{
+    font-size: 22px;
+   font-family: 'Poppins', sans-serif;
+   font-weight:700;
+   color: rgb(255, 255, 255);
+}
+#team .image .data h4{
+    font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   text-transform: uppercase;
+   padding-top:10px;
+   color: rgb(255, 255, 255);
+}
+#team .image:hover .data{
+    opacity: 0;
+}
+
+
+
+/* ====================================================
+              team css End
+========================================================*/
+/* ====================================================
+             counter  css start
+========================================================*/
+#counter{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: url(../Images/bg--0cMZsa.png);
+    padding-top:130px;
+    padding-bottom:130px;
+    position: relative;
+}
+#counter .bg {
+	background: rgba(234, 58, 96, 0.521);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#counter .container-item{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+#counter .container-item h2{
+    font-size: 72px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: rgb(255, 255, 255);
+}
+#counter .container-item h3{
+    font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   color: rgb(255, 255, 255);
+}
+
+
+/* ====================================================
+              counter css End
+========================================================*/
+/* ====================================================
+              ques css start
+========================================================*/
+
+#ques .left h3{
+    font-size: 42px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: black;
+   margin-bottom: 20px;
+   width: 380px;
+   position: relative;
+}
+#ques .left h3::after{
+    position: absolute;
+    content: '';
+    top:110%;
+    left:0;
+    width: 15%;
+    height: 2px;
+    background: #ea3a60;
+}
+#ques .left p{
+     font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: rgb(53, 53, 53);
+   margin: 30px 0;
+   width: 470px;
+}
+
+#ques .bold strong{
+    color: #1d1d1d;
+}
+#ques .right img{
+  width: 100%;
+}
+
+#ques .accordion-button{
+    background: #ea3a60;
+    color:white;
+}
+#ques .accordion-button strong{
+
+    color:white;
+}
+
+#ques .collapsed{
+    background: rgba(234, 58, 96, 0.185);
+}
+#ques .collapsed strong{
+    color:rgb(20, 20, 20);
+}
+
+/* ====================================================
+              ques css End
+========================================================*/
+/* ====================================================
+              plan css start
+========================================================*/
+#plan{
+    margin: 80px 0;
+    padding: 80px 0;
+    background: rgb(236, 236, 236);
+}
+
+#plan .common-header{
+    text-align: center;
+}
+#plan .common-header h2{
+   font-size: 42px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: black;
+   margin-bottom: 20px;
+   position: relative;
+}
+#plan .common-header h2::after {
+    position: absolute;
+    content: '';
+    top: 110%;
+    left: 47%;
+    width: 5%;
+    height: 2px;
+    background: #ea3a60;
+}
+#plan .common-header p{
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: rgb(95, 95, 95);
+   margin-bottom: 20px;
+   width: 600px;
+   margin: auto;
+   padding-bottom: 50px;
+}
+
+
+#plan .left{
+    background: #ffffff;;
+}
+#plan .left .data{
+    padding: 30px;
+}
+#plan .left .data ul {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(95, 95, 95);
+}
+#plan .left .data ul li i{
+    padding-right: 10px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color:green;
+}
+#plan .left .heading{
+    text-align: center;
+    padding: 30px;
+    background: #ea3a60;
+}
+#plan .left .heading h3{
+     font-size: 42px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: rgb(253, 253, 253);
+}
+#plan .left .heading h3 span{
+     font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: rgb(253, 253, 253);
+}
+#plan .left .button{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#plan .left .data .button a{
+    padding: 10px 15px;
+    border: 1px solid #ea3a60;
+    color: #ea3a60;
+    font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   border-radius: 3px;
+}
+
+
+/* ====================================================
+              plan css End
+========================================================*/
+/* ====================================================
+            client   css start
+========================================================*/
+#client{
+    margin-bottom: 80px;
+}
+
+#client .common-header{
+    text-align: center;
+}
+#client .common-header h2{
+   font-size: 42px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: black;
+   margin-bottom: 20px;
+   position: relative;
+}
+#client .common-header h2::after {
+    position: absolute;
+    content: '';
+    top: 115%;
+    left: 47%;
+    width: 5%;
+    height: 2px;
+    background: #ea3a60;
+}
+#client .common-header p{
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: rgb(95, 95, 95);
+   margin-bottom: 20px;
+   width: 600px;
+   margin: auto;
+   padding-bottom: 50px;
+}
+#client .client-item {
+    background: rgb(255, 255, 255);
+    padding: 30px 50px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px -6px #000000; 
+box-shadow: 0px 0px 10px -6px #000000;
+margin-bottom: 25px;
+}
+#client .client-item .left p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(31, 31, 31);
+}
+#client .client-item .right{
+    text-align: right;
+}
+#client .client-item .right h3{
+    font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: black;
+   padding-top: 15px;
+}
+#client .client-item .right h4{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(31, 31, 31);
+    padding-top: 5px;
+}
+#client .client-item .right .coma {
+	position: absolute;
+	right: 3%;
+	top: 6%;
+	
+}
+#client .client-item .right .coma img{
+    width: 65%;
+}
+/* ====================================================
+            client   css End
+========================================================*/
+/* ====================================================
+              mission css start
+========================================================*/
+#mission{
+    margin-bottom: 80px;
+    background: #ea3a60;
+    padding: 120px 0;
+}
+
+
+#mission .left img{
+    width: 100%;
+}
+#mission .right h2{
+    font-size: 42px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: rgb(252, 252, 252);
+   margin-bottom: 20px;
+   position: relative;
+   width: 560px;
+   position: relative;
+}
+#mission .right h2::after{
+    position: absolute;
+    content: '';
+    top:110%;
+    left:0;
+    width: 15%;
+    height: 2px;
+    background: #ffffff;
+}
+#mission .right p{
+    font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: rgb(255, 255, 255);
+   margin-bottom: 20px;
+   width: 600px;
+   width: 545px;
+   padding-top: 20px;
+}
+#mission .right .button{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 50px;
+    height: 100px;
+    border: 2px solid white;
+    position: relative;
+}
+#mission .right .button .play {
+	border-radius: 50%;
+	width: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 80px;
+	background: white;
+}
+#mission .right .button .play i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ea3a60;
+}
+#mission .right{
+    position: relative;
+    padding-left: 40px;
+}
+#mission .right .text h4 {
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	width: 394px;
+	color: rgb(255, 255, 255);
+	padding-left: 120px;
+	position: absolute;
+	top: 85%;
+	left: 7%;
+}
+/* ====================================================
+              mission css End
+========================================================*/
+/* ====================================================
+             News  css start
+========================================================*/
+#news{
+    margin-bottom: 80px;
+}
+
+#news .common-header{
+    text-align: center;
+}
+#news .common-header h2{
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+ }
+ #news .common-header h2::after {
+     position: absolute;
+     content: '';
+     top: 115%;
+     left: 47%;
+     width: 5%;
+     height: 2px;
+     background: #ea3a60;
+ }
+ #news .common-header p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(95, 95, 95);
+    margin-bottom: 20px;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+ }
+
+ #news  .item-main{
+    margin-bottom: 25px;
+}
+
+#news .image{
+    overflow: hidden;
+}
+#news .image img{
+    width: 100%;
+    transition: .4s;
+    
+}
+#news .image img:hover{
+    width: 105%;
+}
+#news .news-item{
+    padding:20px;
+    border-left:1px solid rgb(201, 201, 201);
+    border-right:1px solid rgb(201, 201, 201);
+}
+#news .news-item .bold a{
+    font-size: 22px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: black;
+   line-height: 30px;
+   padding-bottom: 20px;
+   transition: .4s;
+}
+#news .news-item .bold a:hover{
+    color:#ea3a60;
+}
+#news .news-item .bder{
+    margin: 15px;
+}
+#news .news-item .bder i{
+    padding-right: 10px;
+    color:rgb(24, 24, 24);
+}
+#news .news-item .bder .left a{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+    transform: .4s;
+    position: relative;
+}
+#news .news-item .bder .left a::after {
+	position: absolute;
+	content: '';
+	top: -20px;
+	left: -23px;
+	width: 265%;
+	height: 1px;
+	background: rgb(216, 216, 216);
+}
+#news .news-item .bder .left a::before {
+	position: absolute;
+	content: '';
+	bottom: -20px;
+	left: -23px;
+	width: 265%;
+	height: 1px;
+	background: rgb(224, 224, 224);
+}
+
+#news .news-item .bder .left a:hover{
+    color: #ea3a60;
+}
+#news .news-item .bder .right a{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+    transform: .4s;
+}
+#news .news-item .bder .right a:hover{
+    color: #ea3a60;
+}
+
+#news .news-item p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(22, 22, 22);
+    padding-top: 20px;
+    position: relative;
+}
+#news .news-item p::after {
+	position: absolute;
+	content: '';
+	top: 127px;
+	left: 50%;
+	width: 111%;
+	height: 5px;
+	background: #ea3a605d;
+	transform: translate(-50%);
+	position: .4s;
+}
+#news .news-item p::before {
+	position: absolute;
+	content: '';
+	top: 127px;
+	left: 50%;
+	width: 0%;
+	height: 5px;
+	background: #ea3a60;
+    transform: translate(-50%);
+    position: .4s;
+}
+
+#news .item-main:hover p::before{
+    width: 111%;
+}
+/* ====================================================
+             News  css End
+========================================================*/
+/* ====================================================
+             footer  css start
+========================================================*/
+#footer{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+#footer .logo-part h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: inline-block;
+}
+#footer .logo-part p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(24, 24, 24);
+    padding-top: 30px;
+    width: 388px;
+}
+#footer .logo-part h2 {
+	font-size: 22px;
+}
+#footer .logo-part h3 {
+	font-size: 22px;
+}
+#footer .left h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+#footer .left ul{
+    padding: 0px;
+}
+#footer .left ul li{
+    padding-bottom: 10px;
+}
+/* ====================================================
+              footer css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
+/* ====================================================
+               css start
+========================================================*/
+
+
+/* ====================================================
+               css End
+========================================================*/
